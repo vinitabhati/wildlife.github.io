@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li {
+    float: left 20px;
+list-style: none;
+padding: 26px 30px;
+
+}
+.nav-list li a {
+    font-size: 48px;
+    text-decoration: none ;
+    color: rgb(0, 0, 0);
+
+}
+.nav-list li a:hover{
+    color: black;
+}
+.background{
+    font-size: 38px;
+    width: 100%;
+    background-image: url(img/trekkinggirl.jpg);
+      background-size: cover;
+    background-blend-mode: darken;
+}
+
+    
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+.rightNav input {
+    font-size: 30px;
+    width: 316px;
+    height: 46px;
+    border: 5px solid black;
+    border-radius: 14px;
+}
+.btn-sm{
+    width: 91px;
+    height: 61px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 24px;
+}
+#search{
+    padding: 5px;
+    font-size: 24px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.contact{ 
+    
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 33px;
+    width: 76%;
+    height: 100%;
+}
+.container{
+    background: #fff9f9;
+    overflow: auto;
+    align-items: center;
+    display: inline;
+    width: 521px;
+
+
+}
+
+ .gallary{
+    margin: 17px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 515px;
+
+ }
+ div.gallery:hover {
+    border: 1px solid #777;
+  }
+ .gallary img{
+    width: 100%;
+  height: auto;
+ }
+ .desc{
+    color: #fff9f9;
+    border: 5px solid black;
+    background-color: #000000;
+    background-blend-mode: darken;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+ }
+ 
+
+ footer .main .cont .item
+ {
+    font-size: 39px;
+    margin: 50px;
+    margin-top: 8%;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+ }

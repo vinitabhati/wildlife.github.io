@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    font-size: 35px;
+    background-image: url(img/nature-hd-img.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li {
+list-style: none;
+padding: 26px 30px;
+
+}
+.nav-list li a {
+    text-decoration: none ;
+    color: rgb(255, 252, 252);
+
+}
+.nav-list li a:hover{
+    color: black;
+}
+
+
+    
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+.rightNav input {
+    font-size: 30px;
+    width: 316px;
+    height: 46px;
+    border: 5px solid black;
+    border-radius: 38px;
+}
+.btn-sm{
+    width: 91px;
+    height: 61px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 24px;
+}
+#search{
+    padding: 5px;
+    font-size: 23px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.contect{
+    background-image: url(img/nature-hd-img.jpg);
+    background-repeat: no-repeat;
+    height: 125vh;
+    margin-top: 1px;
+    margin-left: 410px;
+    margin-right: 330px;
+
+
+}
+.text-center{
+    text-align: center;
+    margin-right: 173px;
+    padding: 30px;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+.text-center1{
+    text-align: center;
+    margin-right: 173px;
+    padding: 30px;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+.form{
+    max-width: 686px;
+    margin: 59px 646px;
+}
+.form-input{
+    margin: 14px;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+.form-input1{
+    margin: 14px;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 36px;
+    border: 4px solid black;
+    border-radius: 22px;
+    cursor: pointer;
+    background-color: #d3a1d9;
+}
+.btn-dark{
+    color: black;
+    border: 4px solid black;
+    border-radius: 14px;
+    font-size: 27px;
+    margin: 15px;
+    padding: 3px;
+}
+footer .main .cont .item{
+    font-size: 28px;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+     margin: 46px;
+     margin-top: -117px;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li {
+    background-image: ;
+    float: left 20px;
+list-style: none;
+padding: 26px 30px;
+
+}
+.nav-list li a {
+    font-size: 48px;
+    text-decoration: none ;
+    color: rgb(248, 229, 229);
+
+}
+.nav-list li a:hover{
+    color: black;
+}
+
+    
+.rightNav{
+    font-size: 23px;
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+.rightNav input {
+    width: 316px;
+    height: 46px;
+    border: 5px solid black;
+    border-radius: 38px;
+}
+.btn-sm{
+    width: 91px;
+    height: 61px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 24px;
+}
+.mid{
+    align-items:center;
+    margin-left:335px;
+}
+.mid ul {
+    list-style-type: none;
+    margin: 116px;   
+    line-height: 462%;
+    background-image: url(img/header.jpg);
+     background-repeat: no-repeat;
+    height: 159%;
+}
+.mid ul li a {
+
+    
+    text-decoration: none;
+    font-size: 44px;
+    color: rgb(248, 239, 239);
+}
+.mid ul li a:hover {
+    color: rgb(255, 214, 214);
+    font-size: px;
+}
+#search{
+    padding: 5px;
+    font-size: 23px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    width: 100%;
+    background-image: url(img/nature-hd-img.jpg);
+      background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+.btn1{
+    margin: 3px;
+    margin-top: 95px;
+    margin-left: 1448px;
+   padding: 3px ;
+    left: 5px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+   border: 5px;
+}
+
+
+ footer .main .cont .item
+ {
+    font-size: 34px;
+    margin: 35px;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 101px;
+ }
+

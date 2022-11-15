@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+
+}
+
+.nav-list{
+    width: 63%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li {
+    font-size: 48px;
+list-style: none;
+padding: 26px 30px;
+
+}
+.nav-list li a {
+    text-decoration: none ;
+    color: rgb(0, 0, 0);
+
+}
+.nav-list li a:hover{
+    color: rgb(86, 86, 86);
+}
+
+    
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+.rightNav input {
+    font-size: 23px;
+    width: 316px;
+    height: 46px;
+    border: 5px solid black;
+    border-radius: 38px;
+}
+.btn-sm{
+    width: 91px;
+    height: 61px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 24px;
+}
+#search{
+    padding: 5px;
+    font-size: 23px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    width: 100%;
+      background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height:35vh;
+}
+ .box-main
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+ color: rgb(0, 0, 0);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ max-width: 50%;
+ margin: auto;
+ height: 80%;
+}
+
+.firstHalf{
+width:90% ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.text-big5{
+    font-size: 72px;
+}
+
+
+.background{
+    width: 100%;
+    background-image: url(img/trekkinggirl.jpg);
+      background-size: cover;
+    background-blend-mode: darken;
+}
+
+h1{
+    font-size: 49px;
+    margin: 36px;
+}
+.per 
+{
+    display: block;
+    margin: auto;
+    font-size: 35px;
+    margin-top: 81px;
+    margin-left: 25px;
+    width: 32%;
+    padding: 25px;
+    float: right;
+    font: size 1000px;
+    
+   
+}
+.subpera{
+    font-size: 38px;
+
+    padding: 70px
+}
+
+.per img
+
+{ 
+    margin-top: -91px;
+    margin-left: 145px;
+    padding: -12px;
+    float: left;
+    width: 725px;
+}
+
+
+footer .main .cont .item{
+    font-size: 28px;
+    width: 97%;
+    line-height: 86px;
+    display: inline-block;
+    text-align: center;
+    margin: 35px;
+}

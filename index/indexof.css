@@ -1,0 +1,272 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+
+}
+
+.nav-list{
+    width: 63%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li {
+    font-size: 55px;
+    list-style: none;
+    padding: 26px 30px;
+
+}
+.nav-list li a {
+  
+    text-decoration: none ;
+    color: rgb(7, 6, 6);
+
+}
+.nav-list li a:hover{
+    
+ color: black;
+}
+
+    
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+.rightNav input {
+    font-size: 30px;
+    width: 316px;
+    height: 46px;
+    border: 5px solid black;
+    border-radius: 38px;
+}
+.btn-sm{
+    width: 91px;
+    height: 61px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 24px;
+}
+#search{
+    padding: 5px;
+    font-size: 23px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    width: 100%;
+    background-image: url(img/trekkinggirl.jpg);
+      background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.firstSection{
+    height:35vh;
+}
+ .box-main
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+ color: rgb(0, 0, 0);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ max-width: 50%;
+ margin: auto;
+ height: 80%;
+}
+
+.firstHalf5{
+    
+width:80% ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+}
+.text-big5{
+    color: rgb(5, 4, 4);
+    font-size: 325%;
+}
+
+
+/* this is .background1 */
+.background1{
+   
+    width: 97%;
+    margin: 251px 30px 30px 15px;
+    padding: 18px;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.fSection{
+    height:60vh;
+}
+.box-main1
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+ color: rgb(0, 0, 0);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ max-width: 50%;
+ margin: auto;
+ height: 80%;
+}
+.fHalf{
+    font-size: 35px;
+    width:80% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+.sHalf
+    {
+        font-size: 35px;
+        width: 30%;
+    }
+    
+.sHalf img
+    {
+    width: 191%;
+    border: 7px solid black;
+    border-radius: 51px;
+    margin: 49px
+    }
+
+
+
+    /* this is backround 2*/
+.background2{
+    width: 97%;
+    margin: 409px;
+    margin-top: 322px;
+    margin-left: 15px;
+    padding: 18px;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.f2Section{
+    height:73vh;
+}
+.box-main2
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+ color: rgb(0, 0, 0);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ max-width: 50%;
+ margin: auto;
+ height: 40%;
+}
+.f2Half{
+    font-size: 35px;
+    width:80% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .s2Half{
+        font-size: 35px;
+        width: 30%;
+    }
+    .s2Half img{
+        width: 191%;
+    border: 7px solid black;
+    border-radius: 51px;
+    margin: 49px
+    }
+
+ .background3
+    {
+           
+        
+    width: 97%;
+    margin: 409px;
+    margin-top: 322px;
+    margin-left: 15px;
+    padding: 18px;
+    background-size: cover;
+    background-blend-mode: darken;
+    }
+.f3Section{
+    height:73vh;
+}
+.box-main3
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+ color: rgb(0, 0, 0);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ max-width: 50%;
+ margin: auto;
+ height: 20%;
+}
+.f3Half{
+    margin-left: -23px;
+    margin-top: 189px;
+    font-size: 35px;
+    width:80% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .s3Half{
+        font-size: 35px;
+        width: 30%;
+    }
+    .s3Half img{
+        width: 191%;
+    border: 7px solid black;
+    border-radius: 51px;
+    margin: 49px
+    }
+
+
+.btn1{
+        margin: 3px;
+        margin-top: 95px;
+        margin-left: 1200px;
+        padding: 3px ;
+        left: 5px;
+        font-size: 35px;
+        text-align: center; 
+        border: 5px;
+ 
+    } 
+    footer .main .cont .item{
+        font-size: 28px;
+        width: 20%;
+        display: inline-block;
+        text-align: center;
+    margin: 35px;
+    }
+
+   
+
